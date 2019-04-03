@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':latts_annotations')
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
